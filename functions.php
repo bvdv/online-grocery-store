@@ -122,7 +122,17 @@ add_action( 'widgets_init', 'grocery_store_widgets_init' );
 function grocery_store_scripts() {
 	wp_enqueue_style( 'grocery-store-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'grocery-store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_style( 'Bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '2018' );
+
+	wp_enqueue_style( 'main_style', get_template_directory_uri() . '/assets/css/style.css', array(), '2018' );
+
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '2018' );
+
+	wp_enqueue_style( 'popuo-box', get_template_directory_uri() . '/assets/css/popuo-box.css', array(), '2018' );
+
+
+    wp_enqueue_script( 'grocery-store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'grocery-store-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
