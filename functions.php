@@ -132,7 +132,31 @@ function grocery_store_scripts() {
 	wp_enqueue_style( 'popuo-box', get_template_directory_uri() . '/assets/css/popuo-box.css', array(), '2018' );
 
 
-    wp_enqueue_script( 'grocery-store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+
+    wp_enqueue_script( 'jquery-2', get_template_directory_uri() . '/assets/js/jquery-2.1.4.min.js', array(), '2.1.4', true );
+
+    wp_enqueue_script( 'jquery-magnific-popup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.js', array(), '0.9.9', true );
+
+    wp_enqueue_script( 'minicar-js', get_template_directory_uri() . '/assets/js/minicart.js', array(), '3.0.6', true );
+
+    wp_enqueue_script( 'jquery-ui', get_template_directory_uri() . '/assets/js/jquery-ui.js', array(), '1.9.2', true );
+
+    wp_enqueue_script( 'jquery-flexisel-js', get_template_directory_uri() . '/assets/js/jquery.flexisel.js', array(), '1.0.0', true );
+
+    wp_enqueue_script( 'smoothscroll-js', get_template_directory_uri() . '/assets/js/SmoothScroll.min.js', array(), '1.2.1', true );
+
+    wp_enqueue_script( 'move-top-js', get_template_directory_uri() . '/assets/js/move-top.js', array(), '1.2', true );
+
+    wp_enqueue_script( 'easing-js', get_template_directory_uri() . '/assets/js/easing.js', array(), '1.1.2', true );
+
+
+
+
+
+    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.js', array(), '2018', true );
+
+	wp_enqueue_script( 'grocery-store-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'grocery-store-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
