@@ -123,11 +123,11 @@ function grocery_store_scripts() {
 	wp_enqueue_style( 'grocery-store-style', get_stylesheet_uri() );
 
 
-	wp_enqueue_style( 'Bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '2018' );
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '3.3.7' );
 
 	wp_enqueue_style( 'main_style', get_template_directory_uri() . '/assets/css/style.css', array(), '2018' );
 
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '2018' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '4.7.0' );
 
 	wp_enqueue_style( 'popuo-box', get_template_directory_uri() . '/assets/css/popuo-box.css', array(), '2018' );
 
